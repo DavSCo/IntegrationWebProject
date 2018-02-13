@@ -1,0 +1,79 @@
+.home {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #2b3d4f;
+}
+#layer2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#layer4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/*.rectangleHome{
+    width: 63%;
+    /* height: 24%;
+    height: auto;
+    border-radius: 4px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2;
+}*/
+.arrow_right{
+    width: 1%;
+    height: 5%;
+    position: absolute;
+    top: 50%;
+    left: 97%;
+}
+.arrow_left{
+    width: 1%;
+    height: 5%;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+
+}
+.good_ideas{
+    font-size: 60px;
+    line-height: 58px;
+    color: rgb(116,199,213);
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    transform: translate(5%, 5%);
+}
+.comes{
+    font-size: 60px;
+    line-height: 58px;
+    color: rgb(116,199,213);
+    font-family: 'Lato', sans-serif;
+    text-align: end;
+    transform: translate(-56%, -50%);
+}
+.rectangleHome{
+    width: 63%;
+    /* height: 24%; */
+    height: auto;
+    border-radius: 4px;
+    background-image: url("../../projet_davidcohen/img/RoundedRectangle.png");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.first{
+    font-size: 129px;
+    line-height: 129px;
+    color: rgb(116,199,213);
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+}
