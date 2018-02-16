@@ -22,23 +22,28 @@
 			</ul>
 		</nav>
 		
-		<img src="img/Layer2.png" alt="Layer2" id="layer2">
+		<img class="mySlides" src="img/Layer2.png" alt="Layer2" id="layer2">
 		<img src="img/Layer4.png" alt="Layer4" id="layer4">
+		<img class="mySlides" src="img/home_bg.png" alt="HomeBG" id="layer3">
+		<img class="mySlides" src="img/home_bg.png" alt="HomeBG" id="layer3">
+
 
 		<div class="rectangleHome">
 			<p class="good_ideas">GOOD IDEAS <br>comes</p>
 			<p class="first">FIRST!</p>
 		</div>
 
-		<img src="img/arrowright.png" alt="arrow_right" class="arrow_right">
-		<img src="img/arrowleft.png" alt="arrow_left" class="arrow_left">
+		<img src="img/arrowright.png" alt="arrow_right" class="arrow_right" onclick="plusDivs(1)">
+		<img src="img/arrowleft.png" alt="arrow_left" class="arrow_left" onclick="plusDivs(-1)">
 
 		<div class="mouse">
-			<div class="dot1"></div>
-			<div class="dot2"></div>
-			<div class="dot3"></div>
+			<div class="dots dot1" onclick="currentDiv(1)"></div>
+			<div class="dots dot2" onclick="currentDiv(2)"></div>
+			<div class="dots dot3" onclick="currentDiv(3)"></div>
 		</div>
 
 	</header>
+
+	<script src="js/slider.js"></script>
 </body>
 </html>
