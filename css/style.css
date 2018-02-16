@@ -171,9 +171,9 @@ ul.topnav li.icon {display: none;}
     background: transparent;
     position: absolute;
     margin-left: -13px;
-    top: 90%;
+    top: 100%;
     left: 50%;
-    transform: translate(-50%, -90%);
+    transform: translate(-50%, -100%);
 }
 .mouse .dot1 {
     width: 20px;
