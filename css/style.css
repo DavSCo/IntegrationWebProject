@@ -12,6 +12,9 @@ body:before {
 
     z-index: 100;
 }
+section{
+    height: 100vh;
+}
 .home {
     position: absolute;
     width: 100%;
