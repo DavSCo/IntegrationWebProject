@@ -13,11 +13,27 @@ body:before {
     z-index: 100;
 }
 section{
-    height: 100vh;
+    min-height: 50vh;
+    max-height: 100vh;
+    padding: 40px 0 300px;
+    position: relative;
+    overflow: hidden;
 }
 *{
     margin: 0;
     padding: 0;
+}
+h1{
+    font-family: "Lato";
+    font-size: 50px;
+}
+h3{
+    font-family: "Lato";
+
+}
+p{
+    font-family: "Lato";
+
 }
 .home {
     position: absolute;
@@ -244,7 +260,8 @@ ul.topnav li.icon {display: none;}
     padding: 2% 0%;
 }
 .parti2{
-    background-image: url("../img/home_bg2.png");
+    background-color: #b1494f;
+    background-image: url(../img/Layer4.png);
     height: 100vh;
     width: 100vw;
 
@@ -366,7 +383,9 @@ ul.topnav li.icon {display: none;}
     display: inline-block;
 }
 .parti3{
-    background-image: url("../img/about_bg.png");
+    background-color: #665363;
+    background-image: url(../img/Layer4.png);
+
 }
 .block1{
     width: 260px;
@@ -399,6 +418,43 @@ ul.topnav li.icon {display: none;}
     background-color: #4c3e4a;
     display: inline-block;
 }
+.img{
+    text-align: center;
+    transform: translate(180% , 90%);
+}
+.meet{
+    text-align: center;
+    color: white;
+    transform: translate(0% , 0%);
+}
+    @media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px) {
+        .img{
+            text-align: center;
+            transform: translate(18% , 75%);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .ourwork{
     background-color: #81a155;
     background-image: url(../img/Layer4.png);
