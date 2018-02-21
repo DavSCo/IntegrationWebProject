@@ -11,17 +11,17 @@
 </head>
 <body>
 <section>
-    <header class="home">
+    <header class="home" id="home">
         <nav class="nav">
             <div class="logo">
                 acrostia
             </div>
             <ul class="topnav" id="myTopnav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Work</a></li>
-                <li><a href="">Contacts</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contacts</a></li>
             </ul>
         </nav>
 
@@ -46,7 +46,7 @@
         </div>
     </header>
 </section>
-<section class="parti2">
+<section class="parti2" id="service">
     <div class="parti1">
         <h1 class="services">OUR SERVICES</h1>
         <div class="text">
@@ -143,7 +143,7 @@
         </div>
     </div>
 </section>
-<section class="parti3">
+<section class="parti3" id="about">
     <div class="parti4">
         <h1 class="services">WHO WE ARE & WHAT WE DO</h1>
         <div class="text">
@@ -203,28 +203,19 @@
     </div>
     <br><br><br><br><br><br><br><br><br><br>
 </section>
-<!--<section class="ourwork">
-<p class="our">OUR WORK</p>
-<p class="subtitle-our">
-    Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. 
-    Curabitur posuere lectus aliquet erat rutrum sollicitudin. 
-    In enim diam, ullamcorper quis libero et, ultricies commodo est. 
-    Quisque at ante vitae justo fermentum viverra ac eu justo. 
-    Ut luctus imperdiet lacus, eget laoreet erat posuere quis.
-</p>
-
-<div class="navigation">
-    <div id="trait1"></div>
-    <ul class="list-portfolio">
-        <li><a href="">All</a></li>
-        <li><a href="">Photography</a></li>
-        <li><a href="">Logo Design</a></li>
-        <li><a href="">Web Design</a></li>
-    </ul>
-    <div id="trait2"></div>
-</div>
-</section>-->
-<section class="gallery">
+<section class="gallery" id="work">
+        <nav class="nav">
+                <div class="logo">
+                    acrostia
+                </div>
+                <ul class="topnav" id="myTopnav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="" id="worknav">Work</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </nav>
     <p class="our">OUR WORK</p>
     <p class="subtitle-our">
         Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien.
@@ -235,63 +226,72 @@
     </p>
     <div class="navigation">
         <div id="trait1"></div>
+        <p id="navigation-title-portfolio">PORTFOLIO</p>
         <ul class="list-portfolio">
-            <li class="li"><a href="" class="a">All</a></li>
-            <li class="li"><a href="" class="a">Photography</a></li>
-            <li class="li"><a href="" class="a">Logo Design</a></li>
-            <li class="li"><a href="" class="a">Web Design</a></li>
+            <li class="li"><a href="#" class="a">All</a></li>
+            <li class="li"><a href="#" class="a" data-cat="a">Photography</a></li>
+            <li class="li"><a href="#" class="a" data-cat="b">Logo Design</a></li>
+            <li class="li"><a href="#" class="a">Web Design</a></li>
         </ul>
         <div id="trait2"></div>
     </div>
     <div class="row">
-        <ul>
+        <ul class="ul_portfolio">
             <a href="#" class="close"></a>
-            <li>
+            <li class="li_portfolio">
                 <a href="#item02" class="a_portfolio">
-                    <img src="img/portfolio/layer12.png" alt="">
+                    <img src="img/portfolio/layer12.png" alt="AENEAN" data-cat="a">
                 </a>
+                <p class="title-gallery-img">AENEAN A ELIT</p>
             </li>
 
-            <li>
+            <li class="li_portfolio">
                 <a href="#item02" class="a_portfolio">
-                        <img src="img/portfolio/layer15.png" alt="">
+                        <img src="img/portfolio/layer15.png" alt="Aliquam" data-cat="a">
                 </a>
-            </li>
+                <p class="title-gallery-img">Aliquam</p>
+            </li >
 
-            <li>
+            <li class="li_portfolio">
                 <a href="#item02" class="a_portfolio">
-                        <img src="img/portfolio/layer15.png" alt="">                    
+                        <img src="img/portfolio/layer15.png" alt="Suspendisse" data-cat="b">                    
                 </a>
+                <p class="title-gallery-img">Suspendisse libero</p>
             </li>
-            <li>
-                <a class="image" href="#item01" class="a_portfolio">
-                        <img src="img/portfolio/layer18.png" alt="">                    
+            <li class="li_portfolio">
+                <a class="image a_portfolio" href="#item01">
+                        <img src="img/portfolio/layer18.png" alt="Maecenas" data-cat="b">                    
                 </a>
+                <p class="title-gallery-img">Maecenas fringilla</p>
             </li>
-            <li>
-                <a class="image" href="#item02" class="a_portfolio">
-                        <img src="img/portfolio/layer19.png" alt="">                    
+            <li class="li_portfolio">
+                <a class="image a_portfolio" href="#item02">
+                        <img src="img/portfolio/layer19.png" alt="Donec">                    
                 </a>
+                <p class="title-gallery-img">Donec vehicula</p>
             </li>
-            <li>
-                <a class="image" href="#item01" class="a_portfolio">
+            <li class="li_portfolio">
+                <a class="image a_portfolio" href="#item01">
                         <img src="img/portfolio/layer20.png" alt="">    
                 </a>
+                <p class="title-gallery-img">Ut et sapien</p>
             </li>
-            <li>
-                <a class="image" href="#item01" class="a_portfolio">
-                        <img src="img/portfolio/layer21.png" alt="">
+            <li class="li_portfolio">
+                <a class="image a_portfolio" href="#item01">
+                        <img src="img/portfolio/layer21.png" alt="quis">
                 </a>
+                <p class="title-gallery-img">quis malesuada</p>
             </li>
-            <li>
-                <a class="image" href="#item01" class="a_portfolio">
-                        <img src="img/portfolio/layer22.png" alt="">
+            <li class="li_portfolio">
+                <a class="image a_portfolio" href="#item01">
+                        <img src="img/portfolio/layer22.png" alt="Vestibulum">
                 </a>
+                <p class="title-gallery-img">Vestibulum ante</p>
             </li>
         </ul>
     </div> <!-- / row -->
 </section>
-    <section class="contact-form">
+    <section class="contact-form" id="contact">
       
        <div class="contact">
                     <h1 class="titre">CONTACT US</h1>
@@ -360,6 +360,12 @@
     </footer>
 
 
-<script src="js/slider.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/portfolio.js"></script>
+
 </body>
 </html>
