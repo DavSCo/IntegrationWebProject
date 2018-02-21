@@ -328,30 +328,6 @@ ul.topnav li.icon {
     text-align: center;
 }
 
-/*.lightball {
-
-    display: inline-block;
-    position: absolute;
-    top: 20%;
-    left: 30%;
-
-}
-.mwand{
-    display: inline-block;
-    position: absolute;
-    top: 20%;
-    left: 27%;
-}
-.giars{
-    display: inline-block;
-    position: absolute;
-    top: 20%;
-    left: 20%;
-}
-.rocket{
-    display: inline-block;
-
-}*/
 .photoInt {
 
     display: inline-block;
@@ -359,8 +335,8 @@ ul.topnav li.icon {
 }
 
 .researching {
-    padding: 1% 0%;
-}
+    margin-top: -18%;
+     padding: 9% 0 9% 0 ; }
 
 .researching h1 {
     font-size: 30px;
@@ -414,7 +390,9 @@ ul.topnav li.icon {
     border-radius: 5px;
     background-color: #4c3e4a;
     display: inline-block;
+
 }
+
 
 .block2 {
     width: 260px;
