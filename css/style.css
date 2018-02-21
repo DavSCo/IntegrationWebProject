@@ -385,6 +385,9 @@ ul.topnav li.icon {
 }
 
 .block1 {
+margin-right: 2%;
+
+
     width: 260px;
     height: 380px;
     border-radius: 5px;
@@ -395,6 +398,8 @@ ul.topnav li.icon {
 
 
 .block2 {
+    margin-right: 2%;
+
     width: 260px;
     height: 380px;
     border-radius: 5px;
@@ -404,6 +409,8 @@ ul.topnav li.icon {
 }
 
 .block3 {
+    margin-right: 2%;
+
     width: 260px;
     height: 380px;
     border-radius: 5px;
@@ -413,6 +420,8 @@ ul.topnav li.icon {
 }
 
 .block4 {
+    margin-right: 1.7%;
+
     width: 260px;
     height: 380px;
     border-radius: 5px;
@@ -422,7 +431,7 @@ ul.topnav li.icon {
 
 .img {
     text-align: center;
-    transform: translate(180%, 90%);
+    transform: translate(177%, 90%);
 }
 
 .nomUser {
