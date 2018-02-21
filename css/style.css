@@ -261,7 +261,7 @@ ul.topnav li.icon {display: none;}
 }
 .parti2{
     background-color: #b1494f;
-    background-image: url(../img/Layer4.png);
+    background-image: url(../img/Layer3.png);
     height: 100vh;
     width: 100vw;
 
@@ -297,31 +297,6 @@ ul.topnav li.icon {display: none;}
     text-align: center;
 }
 
-.bg {
-    position: absolute;
-    display: inline-block;
-    right: 81.7%;
-    top: 133%;
-}
-.bg1{
-    position: absolute;
-    display: inline-block;
-    right: 58.1%;
-    top: 133%;
-}
-.bg2{
-    position: absolute;
-    display: inline-block;
-    top: 133%;
-    right: 34.5%;
-
-}
-.bg3{
-    position: absolute;
-    display: inline-block;
-    top: 133%;
-    right:10.8%;
-}
 .lightball {
 
     display: inline-block;
@@ -348,7 +323,9 @@ ul.topnav li.icon {display: none;}
     top: 20%;
     left: 20%;
 }
-
+.researching{
+    padding: 9% 0%;
+}
 .researching h1 {
     font-size: 30px;
     line-height: 58px;
