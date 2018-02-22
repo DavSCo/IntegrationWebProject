@@ -16,7 +16,7 @@ body:before {
 section {
     min-height: 50vh;
     max-height: 100vh;
-    padding: 40px 0 300px;
+    padding: 40px 0 127px;
     position: relative;
     overflow: hidden;
 }
@@ -237,18 +237,6 @@ and (max-device-width: 667px) {
         text-align: center;
         transform: translate(18%, 75%);
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -691,8 +679,10 @@ and (max-device-width: 1024px) {
     .gallery .ul_portfolio {
         transform: translate(17%, 0%);
     }
-}
+    
 
+}
+.submt{height:  5vh;}
 /**DOT LINK**/
 .mouse {
     display: inline-block;
@@ -855,7 +845,7 @@ and (max-device-width: 1024px) {
 .parti3 {
     background-color: #665363;
     background-image: url(../img/Layer6.png);
-
+ padding: 40px 0 300px;
 }
 
 .block1 {
@@ -1029,7 +1019,7 @@ and (max-device-width: 1024px) {
 }
 
 .gallery {
-    padding: 40px 0 300px;
+    padding: 40px 0 380px;
     position: relative;
     overflow: hidden;
     background-color: #81a155;
@@ -1116,6 +1106,9 @@ and (max-device-width: 1024px) {
     background-color: #75b3a9;
     /*background-image: url('../img/Layer%2024*/
     padding-top: 9%;
+}
+.section1{
+  padding: 40px 0 300px;
 }
 
 .titre {
@@ -1230,6 +1223,7 @@ textarea {
     width: 472px;
     height: 210px;
     /*159*/
+    border-color: transparent;
     border-radius: 4px;
     background-color: #679f97;
     padding-bottom: 5%;
