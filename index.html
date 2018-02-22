@@ -46,6 +46,7 @@
         </div>
     </header>
 </section>
+<!-- Samuel-->
 <section class="parti2" id="service">
     <div class="parti1">
         <h1 class="services">OUR SERVICES</h1>
@@ -143,6 +144,7 @@
         </div>
     </div>
 </section>
+<!-- Samuel-->
 <section class="parti3" id="about">
     <div class="parti4">
         <h1 class="services">WHO WE ARE & WHAT WE DO</h1>
@@ -173,13 +175,13 @@
                         </div>
                         <div class="social">
                             <ul class="reseauSocial">
-                                <li><a href="https://facebook.com" target="_blank"><img src="img/social1.png"
+                                <li><a href="https://facebook.com" target="_blank"><img class="ftgl" src="img/social1.png"
                                                                                         alt="facebook"></a></li>
-                                <li><a href="https://twitter.com" target="_blank"><img src="img/social3.png"
+                                <li><a href="https://twitter.com" target="_blank"><img class="ftgl" src="img/social3.png"
                                                                                        alt="twitter"></a></li>
-                                <li><a href="https://google.com" target="_blank"><img src="img/social2.png"
+                                <li><a href="https://google.com" target="_blank"><img class="ftgl" src="img/social2.png"
                                                                                       alt="google"></a></li>
-                                <li><a href="https://linkedin.com" target="_blank"><img src="img/social4.png"
+                                <li><a href="https://linkedin.com" target="_blank"><img class="ftgl" src="img/social4.png"
                                                                                         alt="linkedin"></a></li>
                             </ul>
                         </div>
@@ -195,17 +197,17 @@
                         </div>
 
                         <div class="profession">
-                            <h5>General manager</h5>
+                            <h5>Design Master</h5>
                         </div>
                         <div class="social">
                             <ul class="reseauSocial">
-                                <li><a href="https://facebook.com" target="_blank"><img src="img/social1.png"
+                                <li><a href="https://facebook.com" target="_blank"><img class="ftgl" src="img/social1.png"
                                                                                         alt="facebook"></a></li>
-                                <li><a href="https://twitter.com" target="_blank"><img src="img/social3.png"
+                                <li><a href="https://twitter.com" target="_blank"><img class="ftgl" src="img/social3.png"
                                                                                        alt="twitter"></a></li>
-                                <li><a href="https://google.com" target="_blank"><img src="img/social2.png"
+                                <li><a href="https://google.com" target="_blank"><img class="ftgl" src="img/social2.png"
                                                                                       alt="google"></a></li>
-                                <li><a href="https://linkedin.com" target="_blank"><img src="img/social4.png"
+                                <li><a href="https://linkedin.com" target="_blank"><img class="ftgl" src="img/social4.png"
                                                                                         alt="linkedin"></a></li>
                             </ul>
                         </div>
@@ -219,17 +221,17 @@
                             <h3 class="nomUser">ILIAN BONEV</h3>
                         </div>
                         <div class="profession">
-                            <h5>General manager</h5>
+                            <h5>Developer Ninja</h5>
                         </div>
                         <div class="social">
                             <ul class="reseauSocial">
-                                <li><a href="https://facebook.com" target="_blank"><img src="img/social1.png"
+                                <li><a href="https://facebook.com" target="_blank"><img class="ftgl" src="img/social1.png"
                                                                                         alt="facebook"></a></li>
-                                <li><a href="https://twitter.com" target="_blank"><img src="img/social3.png"
+                                <li><a href="https://twitter.com" target="_blank"><img class="ftgl" src="img/social3.png"
                                                                                        alt="twitter"></a></li>
-                                <li><a href="https://google.com" target="_blank"><img src="img/social2.png"
+                                <li><a href="https://google.com" target="_blank"><img class="ftgl" src="img/social2.png"
                                                                                       alt="google"></a></li>
-                                <li><a href="https://linkedin.com" target="_blank"><img src="img/social4.png"
+                                <li><a href="https://linkedin.com" target="_blank"><img class="ftgl" src="img/social4.png"
                                                                                         alt="linkedin"></a></li>
                             </ul>
                         </div>
@@ -244,17 +246,17 @@
                             <h3 class="nomUser">DONI STAMOV</h3>
                         </div>
                         <div class="profession">
-                            <h5>General manager</h5>
+                            <h5>SEO guru</h5>
                         </div>
                         <div class="social">
                             <ul class="reseauSocial">
-                                <li><a href="https://facebook.com" target="_blank"><img src="img/social1.png"
+                                <li><a href="https://facebook.com" target="_blank"><img class="ftgl" src="img/social1.png"
                                                                                         alt="facebook"></a></li>
-                                <li><a href="https://twitter.com" target="_blank"><img src="img/social3.png"
+                                <li><a href="https://twitter.com" target="_blank"><img class="ftgl" src="img/social3.png"
                                                                                        alt="twitter"></a></li>
-                                <li><a href="https://google.com" target="_blank"><img src="img/social2.png"
+                                <li><a href="https://google.com" target="_blank"><img class="ftgl" src="img/social2.png"
                                                                                       alt="google"></a></li>
-                                <li><a href="https://linkedin.com" target="_blank"><img src="img/social4.png"
+                                <li><a href="https://linkedin.com" target="_blank"><img class="ftgl" src="img/social4.png"
                                                                                         alt="linkedin"></a></li>
                             </ul>
                         </div>
@@ -263,7 +265,6 @@
             </center>
         </div>
     </div>
-    <br><br><br><br><br><br><br><br><br><br>
 </section>
 <section class="gallery" id="work">
         <nav class="nav">
@@ -429,6 +430,41 @@
             </li>
         </ul>
     </footer>
+<script>
+    var a = document.querySelectorAll('h5');
+
+    document.querySelectorAll('.pad').forEach(image => {
+        image.addEventListener('mouseover', function() {
+        this.src = this.src.replace('Normal.png', 'Rouge.png');
+
+
+
+    });
+    image.addEventListener('mouseleave', function() {
+        this.src = this.src.replace( 'Rouge.png','Normal.png');
+    });
+    });
+
+
+    document.querySelectorAll('.ftgl').forEach(image => {
+        image.addEventListener('mouseover', function() {
+        this.src = this.src.replace('1.png', 'C1.png');
+        this.src = this.src.replace('2.png', 'C2.png');
+        this.src = this.src.replace('3.png', 'C3.png');
+        this.src = this.src.replace('4.png', 'C4.png');
+
+
+    });
+    image.addEventListener('mouseleave', function() {
+        this.src = this.src.replace('C1.png', '1.png');
+        this.src = this.src.replace('C2.png', '2.png');
+        this.src = this.src.replace('C3.png', '3.png');
+        this.src = this.src.replace('C4.png', '4.png');
+    });
+    });
+
+
+</script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>

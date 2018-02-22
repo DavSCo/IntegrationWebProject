@@ -35,7 +35,8 @@ h3 {
     font-family: "Lato";
 
 }
-h5{
+
+h5 {
     padding: 6% 0% 0% 0%;
 }
 
@@ -231,15 +232,41 @@ ul.topnav li.icon {
 and (min-device-width: 375px)
 and (max-device-width: 667px) {
 
-    .img {
-        width: 30px;
-        height: 30px;
-        text-align: center;
-        transform: translate(18%, 75%);
+    .parti3 {
+        max-height: 300vh;
     }
 
+   section.parti2 {
+       padding: 40px 0 1600px;
 
+    }
 
+    .block.block {
+        padding: 1% 0% 21%;
+        width: 260px;
+        height: 380px;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 5% 0% 0% 0%;
+    }
+
+    .block1.block1 {
+        padding: 1% 0% 14%;
+        width: 260px;
+        height: 380px;
+        border-radius: 5px;
+        background-color: #4c3e4a;
+        display: inline-block;
+        margin: 5% 0% 0% 0%;
+    }
+
+    .img.img {
+        transform: translate(30%, 107%);
+        height: 40px;
+        width: 231px;
+        text-align: center;
+
+    }
 
     nav {
         position: fixed;
@@ -386,6 +413,27 @@ and (max-device-width: 667px) {
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 568px) {
+    .img.img{
+        text-align: center;
+        transform: translate(9%, 88%);
+
+    }
+   section#about{
+        padding: 40px 0 1930px;
+
+    }
+    section#service{
+        padding: 40px 0 1950px;
+    }
+.block.block{
+    margin: 10% 0%;
+    padding: 0% 0% 17%;
+}
+    .block1.block1{
+        margin: 10% 0%;
+        padding: 0% 0% 17%;
+    }
+
     nav {
         position: fixed;
         width: 100vw;
@@ -525,9 +573,14 @@ and (max-device-width: 568px) {
     .gallery .ul_portfolio {
         transform: translate(17%, 0%);
     }
+    .parti2{
+        height: 150vh;
+    }
+
+
 }
 
-/*iPad*/
+/*iPad portrait */
 @media only screen
 and (min-device-width: 768px)
 and (max-device-width: 1024px) {
@@ -679,10 +732,44 @@ and (max-device-width: 1024px) {
     .gallery .ul_portfolio {
         transform: translate(17%, 0%);
     }
-    
+
+    .block.block {
+        margin: 2%;
+        padding: 0% 0% 7%;
+    }
+
+    .block1.block1 {
+        margin: 2%;
+        padding: 0% 0% 7%;
+
+    }
+
+    .img.img {
+        transform: translate(88%, 90%);
+
+    }
 
 }
-.submt{height:  5vh;}
+/* iPad paysage*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    .img.img{
+        transform: translate(134%, 90%);
+    }
+    .block1.block1{
+        width: 210px;
+    }
+    .block.block{
+        width: 210px;
+    }
+}
+
+.submt {
+    height: 5vh;
+}
+
 /**DOT LINK**/
 .mouse {
     display: inline-block;
@@ -759,7 +846,7 @@ and (max-device-width: 1024px) {
     background-color: #b1494f;
     background-image: url(../img/Layer3.png);
     height: 100vh;
-   /* width: 100vw;*/
+    /* width: 100vw;*/
     padding: 40px 0 300px;
 
 }
@@ -795,7 +882,6 @@ and (max-device-width: 1024px) {
 
     text-align: center;
 }
-
 
 .researching {
     margin-top: -18%;
@@ -845,7 +931,7 @@ and (max-device-width: 1024px) {
 .parti3 {
     background-color: #665363;
     background-image: url(../img/Layer6.png);
- padding: 40px 0 300px;
+    padding: 40px 0 300px;
 }
 
 .block1 {
@@ -859,14 +945,13 @@ and (max-device-width: 1024px) {
 
 }
 
-
 .pad {
     padding: 14% 0%;
 }
 
 .img {
     text-align: center;
-    transform: translate(177%, 90%);
+    transform: translate(175%, 90%);
 }
 
 .nomUser {
@@ -889,11 +974,11 @@ and (max-device-width: 1024px) {
     color: rgb(161, 202, 108);
     font-family: 'Lato';
 }
-.profession:hover{
+
+.profession:hover {
     color: rgb(255, 137, 115);
 
 }
-
 
 .profession1 {
     color: rgb(255, 137, 115);
@@ -918,8 +1003,6 @@ and (max-device-width: 1024px) {
     display: inline-block;
     list-style-type: none;
 }
-
-
 
 .ourwork {
     background-color: #81a155;
@@ -1107,8 +1190,9 @@ and (max-device-width: 1024px) {
     /*background-image: url('../img/Layer%2024*/
     padding-top: 9%;
 }
-.section1{
-  padding: 40px 0 300px;
+
+.section1 {
+    padding: 40px 0 300px;
 }
 
 .titre {
@@ -1214,7 +1298,7 @@ div#contact2 {
 
 input,
 textarea {
-    
+
     border-radius: 4px;
     background-color: #679f97;
 }
@@ -1228,8 +1312,6 @@ textarea {
     background-color: #679f97;
     padding-bottom: 5%;
 }
-
-
 
 .default {
     width: 215px;
@@ -1274,9 +1356,6 @@ ul.reseau {
 .t {
     padding: 2.2% 0% 0 0;
 }
-
-
-
 
 .submt {
     border: none;
