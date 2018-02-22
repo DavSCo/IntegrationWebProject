@@ -783,10 +783,9 @@ and (max-device-width : 1024px)  {
     width: 100%;
 }
 
-.twoElement {
-    display: inline-block;
+.icone{
+    transform: translate(0%,-158%);
 }
-
 .parti3 {
     background-color: #665363;
     background-image: url(../img/Layer6.png);
