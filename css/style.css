@@ -416,10 +416,10 @@ ul.topnav li.icon {
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     .img.img {
         text-align: center;
-        transform: translate(9%, 88%);
+        transform: translate(30%, 104%);
     }
     section#about {
-        padding: 40px 0 1930px;
+        padding: 40px 0 572px;
     }
     section#service {
         padding: 40px 0 1950px;
